@@ -1,0 +1,95 @@
+[Root]
+Most Recent Package=Diary
+
+[Package|Diary|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Diary\Setup
+
+[Package|Diary|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Diary|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Diary|Files Found]
+
+[Package|Diary|Files Released]
+
+[Package|Diary|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+
+[Package|Diary|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|Diary|Files Added]
+C:\Diary\dbDairy.mdb=
+
+[Package|Diary|Files Removed]
+
+[Package|Diary|Files In Project]
+C:\Diary\Diary.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\Olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\Asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\Stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Diary\dbDairy.mdb=Yes
+
+[Package|Diary|Configure Registry Files]
+Applicable=No
+
+[Package|Diary|Configure Remote Servers]
+Applicable=No
+
+[Package|Diary|Install Locations]
+C:\Diary\Diary.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Diary\dbDairy.mdb=$(AppPath)
+
+[Package|Diary|Configure Shared Files]
+Applicable=Yes
+C:\Diary\Diary.exe=No
+C:\Diary\dbDairy.mdb=No
+
+[Package|Diary|Distribution]
+Type=single
+Size=
+Title=Diary
+
+[Package|Diary|IconGroups]
+Group0=Diary
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Diary|Diary]
+Icon1=Diary.exe
+Title1=Diary
+StartIn1=$(AppPath)
+Key1=Icon1
